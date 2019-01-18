@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="19dp">
+
+            <ImageView
+                android:id="@+id/amritsar"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:contentDescription="Amritsar"
+                android:src="@drawable/amritsar"
+                android:onClick="amr"/>
+            <ImageView
+                android:id="@+id/ayodhya"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:onClick="ayo"
+                android:contentDescription="Ayodhya"
+                android:src="@drawable/ayodhya"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="29dp">
+
+            <ImageView
+                android:id="@+id/chennai"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:contentDescription="Chennai"
+                android:onClick="chen"
+                android:src="@drawable/chennai"/>
+            <ImageView
+                android:id="@+id/delhi"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:onClick="del"
+                android:contentDescription="Delhi"
+                android:src="@drawable/delhi"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="29dp">
+
+            <ImageView
+                android:id="@+id/gujarat"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:onClick="guj"
+                android:contentDescription="Gujarat"
+                android:src="@drawable/gujarat"/>
+            <ImageView
+                android:id="@+id/jammu"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:onClick="jam"
+                android:src="@drawable/jammu"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="29dp">
+
+            <ImageView
+                android:id="@+id/kerala"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:contentDescription="Kerala"
+                android:onClick="ker"
+                android:src="@drawable/kerala"/>
+            <ImageView
+                android:id="@+id/mumbai"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:onClick="mum"
+                android:contentDescription="Mumbai"
+                android:src="@drawable/mumbai"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="29dp">
+
+            <ImageView
+                android:id="@+id/lavasa"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:contentDescription="Lavasa"
+                android:onClick="lav"
+                android:src="@drawable/lavasa"/>
+            <ImageView
+                android:id="@+id/patna"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:onClick="pat"
+                android:contentDescription="Patna"
+                android:src="@drawable/patna"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>
