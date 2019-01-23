@@ -40,6 +40,17 @@
                  android:padding="7dp"
                  android:background="#FFE082"
                  android:textColor="#000000" />
+             <Button
+                 android:id="@+id/but"
+                 android:layout_width="150dp"
+                 android:layout_height="wrap_content"
+                 android:text="Read more!"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="15dp"
+                 android:layout_marginBottom="20dp"
+                 android:textColor="#000000"
+                 android:background="#69F0AE"
+                 android:onClick="read"/>
          </LinearLayout>
 
      </ScrollView>
