@@ -20,7 +20,7 @@ public class kerala extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kerala);
         getSupportActionBar().setTitle("Tourism Guide - Kerala");
-        image = (ImageView)findViewById(R.id.img);
+        image = findViewById(R.id.img);
         Picasso.get()
                 .load("https://i.imgur.com/65Z56WL.png")
                 .into(image);

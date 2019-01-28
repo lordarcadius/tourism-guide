@@ -20,7 +20,7 @@ public class gujarat extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gujarat);
         getSupportActionBar().setTitle("Tourism Guide - Gujarat");
-        image = (ImageView)findViewById(R.id.img);
+        image = findViewById(R.id.img);
         Picasso.get()
                 .load("https://i.imgur.com/s1aob34.png")
                 .into(image);

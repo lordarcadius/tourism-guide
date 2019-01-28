@@ -19,7 +19,7 @@ public class ayodhya extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ayodhya);
         getSupportActionBar().setTitle("Tourism Guide - Ayodhya");
-        image = (ImageView) findViewById(R.id.img);
+        image = findViewById(R.id.img);
         Picasso.get()
                 .load("https://i.imgur.com/sk0Lap8.png")
                 .into(image);

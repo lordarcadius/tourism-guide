@@ -19,7 +19,7 @@ public class lavasa extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lavasa);
         getSupportActionBar().setTitle("Tourism Guide - Lavasa");
-        image = (ImageView)findViewById(R.id.img);
+        image = findViewById(R.id.img);
         Picasso.get()
                 .load("https://i.imgur.com/hQMrQJ5.png")
                 .into(image);

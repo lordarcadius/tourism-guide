@@ -20,7 +20,7 @@ public class mumbai extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mumbai);
         getSupportActionBar().setTitle("Tourism Guide - Mumbai");
-        image = (ImageView)findViewById(R.id.img);
+        image = findViewById(R.id.img);
         Picasso.get()
                 .load("https://i.imgur.com/3aBEllW.png")
                 .into(image);

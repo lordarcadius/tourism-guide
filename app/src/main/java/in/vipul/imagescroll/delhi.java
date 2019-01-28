@@ -19,7 +19,7 @@ public class delhi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delhi);
         getSupportActionBar().setTitle("Tourism Guide - Delhi");
-        image = (ImageView) findViewById(R.id.img);
+        image = findViewById(R.id.img);
         Picasso.get()
                 .load("https://i.imgur.com/850ldCY.png")
                 .into(image);

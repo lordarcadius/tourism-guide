@@ -20,7 +20,7 @@ public class patna extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patna);
         getSupportActionBar().setTitle("Tourism Guide - Patna");
-        image = (ImageView) findViewById(R.id.img);
+        image = findViewById(R.id.img);
         Picasso.get()
                 .load("https://i.imgur.com/ATb2qFM.png")
                 .into(image);

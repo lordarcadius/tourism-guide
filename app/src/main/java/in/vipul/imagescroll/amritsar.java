@@ -20,7 +20,7 @@ public class amritsar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_amritsar);
         getSupportActionBar().setTitle("Tourism Guide - Amritsar");
-        image = (ImageView)findViewById(R.id.img);
+        image = findViewById(R.id.img);
         Picasso.get()
                 .load("https://i.imgur.com/ril7Agz.png")
                 .into(image);

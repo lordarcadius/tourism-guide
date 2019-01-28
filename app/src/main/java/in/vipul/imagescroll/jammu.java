@@ -19,7 +19,7 @@ public class jammu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jammu);
         getSupportActionBar().setTitle("Tourism Guide - J & K");
-        image = (ImageView)findViewById(R.id.img);
+        image = findViewById(R.id.img);
         Picasso.get()
                 .load("https://i.imgur.com/xNOCT2X.png")
                 .into(image);
